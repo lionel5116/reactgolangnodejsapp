@@ -55,7 +55,7 @@ function NodeJSPage() {
 
   return (
     <div>
-     <h2>GoLang API Example</h2>
+     <h2>NodeJS API Example</h2>
       <Container>
        <Row>
          <Col sm={12}>
