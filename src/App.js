@@ -4,6 +4,7 @@ import { HashRouter,Route, Routes } from 'react-router-dom'
 import NavigationBar from './components/Navigation/NavigationBar';
 import GoLangPage from './components/GoLangPage/GoLangPage';
 import NodeJSPage from './components/NodeJSPage/NodeJSPage';
+import ExpressJSPage from './components/ExpressJSPage/ExpressJSPage';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<GoLangPage />}></Route>
           <Route path="/GoLangPage" element={<GoLangPage />}></Route>
           <Route path="/NodeJSPage" element={<NodeJSPage />}></Route>
+          <Route path="/ExpressJSPage" element={<ExpressJSPage />}></Route>
         </Routes>
       </HashRouter>
     </div>
