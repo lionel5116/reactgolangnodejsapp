@@ -5,6 +5,7 @@ import NavigationBar from './components/Navigation/NavigationBar';
 import GoLangPage from './components/GoLangPage/GoLangPage';
 import NodeJSPage from './components/NodeJSPage/NodeJSPage';
 import ExpressJSPage from './components/ExpressJSPage/ExpressJSPage';
+import MongoDBExpressJSPage from './components/MongoDBExpressJSPage/MongoDBExpressJSPage';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path="/GoLangPage" element={<GoLangPage />}></Route>
           <Route path="/NodeJSPage" element={<NodeJSPage />}></Route>
           <Route path="/ExpressJSPage" element={<ExpressJSPage />}></Route>
+          <Route path="/MongoDBExpressJSPage" element={<MongoDBExpressJSPage />}></Route>
         </Routes>
       </HashRouter>
     </div>

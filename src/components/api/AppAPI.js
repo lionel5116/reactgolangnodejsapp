@@ -54,6 +54,23 @@ export class AppAPI {
         }
  
      }
+
+     //http://localhost:4000/api/students
+     async  MongoDBExpressJSPData(){
+        var url = Config.REST_URL_MONGODB_EXPRESSJS + 'api/students'
+        try
+        {
+            return await axios.get(url)
+            .then(res => {
+                return res.data;
+            });
+        } catch (err)
+        {
+          console.log("Issue fetching data.. possible url invalid character sent: " + err)
+          return []
+        }
+ 
+     }
 }
 
 export default AppAPI
